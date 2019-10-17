@@ -6,7 +6,26 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4e3c9f-1ea1-48cc-9cca-aeb19f702996" name="Default" comment="" />
+    <list default="true" id="6d4e3c9f-1ea1-48cc-9cca-aeb19f702996" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateUltrasound.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addUltrasound.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/allUltrasound.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/UltrasoundController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/UltrasoundController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/Ultrasound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Ultrasound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/UltrasoundService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/UltrasoundService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UltrasoundMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UltrasoundMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/addUltrasound.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/allUltrasound.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UltrasoundSystem/WEB-INF/classes/com/pojo/Ultrasound.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/UltrasoundSystem/WEB-INF/classes/com/pojo/Ultrasound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UltrasoundSystem/WEB-INF/classes/mapper/UltrasoundMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/UltrasoundSystem/WEB-INF/classes/mapper/UltrasoundMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UltrasoundSystem/WEB-INF/html/addUltrasound.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UltrasoundSystem/WEB-INF/html/allUltrasound.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/UltrasoundSystem/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pojo/Ultrasound.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pojo/Ultrasound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UltrasoundMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UltrasoundMapper.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +37,14 @@
       <list>
         <option value="Interface" />
         <option value="XML Properties File" />
+        <option value="Class" />
         <option value="Jsp File" />
         <option value="HTML File" />
-        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -32,6 +54,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1RwwqtRUMVFCu9gUcIKses5ayuT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,6 +68,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="C:\java\UltrasoundSystem\src\main\webapp\WEB-INF\html" />
     </key>
   </component>
@@ -192,7 +220,8 @@
       <workItem from="1571217903286" duration="1356000" />
       <workItem from="1571272701500" duration="1241000" />
       <workItem from="1571275165412" duration="232000" />
-      <workItem from="1571275805331" duration="704000" />
+      <workItem from="1571275805331" duration="4677000" />
+      <workItem from="1571281097169" duration="1448000" />
     </task>
     <servers />
   </component>
@@ -207,5 +236,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

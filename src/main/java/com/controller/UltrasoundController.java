@@ -59,4 +59,5 @@ public class UltrasoundController {
         return "redirect:/ultrasound/allUltrasound";
     }
 
+
 }

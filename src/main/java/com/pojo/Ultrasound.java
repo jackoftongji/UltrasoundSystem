@@ -7,9 +7,12 @@ public class Ultrasound {
 
     private long id;
     private String waveform;
+
+    private String equipment;
+
     private String constructionSite;
     private String section;
-    private String mileage;
+    //private String mileage;
     private String author;
 /*    private Date uploadDate;
     private Date foundDate;*/
@@ -21,9 +24,12 @@ public class Ultrasound {
         return "Ultrasound{" +
                 "id=" + id +
                 ", waveform='" + waveform + '\'' +
+
+                ", equipment='" + equipment + '\'' +
+
                 ", constructionSite='" + constructionSite + '\'' +
                 ", section='" + section + '\'' +
-                ", mileage='" + mileage + '\'' +
+                //", mileage='" + mileage + '\'' +
                 ", author='" + author + '\'' +
                 ", uploadDate='" + uploadDate + '\'' +
                 ", foundDate='" + foundDate + '\'' +
@@ -62,13 +68,13 @@ public class Ultrasound {
         this.section = section;
     }
 
-    public String getMileage() {
-        return mileage;
-    }
-
-    public void setMileage(String mileage) {
-        this.mileage = mileage;
-    }
+//    public String getMileage() {
+//        return mileage;
+//    }
+//
+//    public void setMileage(String mileage) {
+//        this.mileage = mileage;
+//    }
 
     public String getAuthor() {
         return author;
@@ -93,5 +99,15 @@ public class Ultrasound {
     public void setFoundDate(String foundDate) {
         this.foundDate = foundDate;
     }
+
+    public String getEquipment() {
+        return equipment;
+    }
+
+    public void setEquipment(String equipment) {
+        this.equipment = equipment;
+    }
+
+
 }
 

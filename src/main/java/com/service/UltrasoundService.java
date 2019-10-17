@@ -8,6 +8,7 @@ public interface UltrasoundService {
 
     int addUltrasound(Ultrasound ultrasound);
 
+
     Ultrasound queryById(long id);
 
 
