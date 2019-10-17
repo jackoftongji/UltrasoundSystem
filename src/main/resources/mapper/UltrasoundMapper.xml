@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UltrasoundDao">
+    <resultMap id="ultrasoundResultMap" type="Ultrasound">
+        <id property="id" column="Experimenters_id"/>
+        <result property="waveform" column="wave_data"/>
+        <result property="constructionSite" column="equipment"/>
+        <result property="section" column="construction_site"/>
+        <result property="mileage" column="section"/>
+        <result property="author" column="Experimenters"/>
+        <result property="uploadDate" column="upload_date"/>
+        <result property="foundDate" column="found_date"/>
+    </resultMap>
+    <delete id="deleteUltrasoundById" parameterType="long">
+        delete from table_ultrasound where id=#{uId}
+    </delete>
+    <select id="queryAllUltrasound" resultMap="ultrasoundResultMap">
+        select Experimenters_id, wave_data, equipment ,construction_site, section, Experimenters,upload_date, found_date
+        from table_ultrasound
+    </select>
+    <insert id="addUltrasound" parameterType="Ultrasound">
+        insert into table_ultrasound(Experimenters_id,wave_data, equipment ,construction_site, section, Experimenters,upload_date, found_date)
+        value (#{id},#{waveform},#{constructionSite},#{section},#{mileage},#{author},#{uploadDate},#{foundDate})
+    </insert>
+
+    <select id="queryById" resultMap="ultrasoundResultMap">
+        select Experimenters_id, wave_data, equipment ,construction_site, section, Experimenters,upload_date, found_date
+        from table_ultrasound
+        where Experimenters_id=#{id}
+    </select>
+</mapper>
